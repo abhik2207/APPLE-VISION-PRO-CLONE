@@ -45,6 +45,15 @@ body {
     border-radius: 50px;
     border: none;
     background-color: #FFFFFF;
+    border: 2px solid #000000;
+    transition: 0.5s;
+}
+
+#page>nav>button:hover {
+    background-color: #000000;
+    color: #FFFFFF;
+    cursor: pointer;
+    border: 2px solid #FFFFFF;
 }
 
 #page>video {
@@ -262,6 +271,11 @@ body {
     border-radius: 50px;
     font-size: 1.3vw;
     margin-top: 1.5vw;
+}
+
+.right5>button:hover {
+    cursor: pointer;
+    background-color: #c05d27;
 }
 
 #page6 {
@@ -538,6 +552,11 @@ body {
     color: #FFFFFF;
     font-weight: 500;
     border: none;
+}
+
+#page16>button:hover {
+    cursor: pointer;
+    background-color: #c05d27;
 }
 
 #page17{
